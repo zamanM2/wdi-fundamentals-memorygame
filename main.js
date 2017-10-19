@@ -19,3 +19,26 @@ if (cardsINPLAY.length === 2) {
 		alert("Sorry, try again.");
 	}
 }
+
+
+console.log("Up and running!");
+
+var cards = ["queen","queen","king","king"];
+var cardsINPLAY = [];
+
+var checkForMatch = function(cardID) {
+if (cardsInPlay[0] === cardsInPlay[1]) {
+console.log("You found a match!");
+} else {
+console.log("Sorry, try again.");
+}
+
+
+var flipcard = function(cardID) {
+
+	console.log("User flipped" + cards[cardId])
+
+	cardsInPlay.push(cards[cardId])
+	}
+
+}
