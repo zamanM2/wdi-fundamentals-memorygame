@@ -84,3 +84,58 @@ var flipcard = function(cardID) {
 
 }
 __________________________________________________________________________________________________________________________________________
+
+
+var cards = [
+{
+rank: "queen",
+suit: "hearts",
+cardImage: "images/queen-of-hearts.png",
+},
+{
+color: "queen",
+flower: "diamonds",
+petals: "images/queen-of-diamonds.png",
+},
+{
+rank: "king",
+suit: "hearts",
+cardImage: "images/king-of-hearts.png",
+},
+{
+rank: "king",
+suit: "diamonds",
+cardImage: "images/king-of-diamonds.png",
+}
+];
+var cardsINPLAY = [];
+
+var checkForMatch = function(cardID) {
+if (cardsInPlay[0] === cardsInPlay[1]) {
+console.log("You found a match!");m
+} else {
+console.log("Sorry, try again.");
+}
+
+
+var flipcard = function(cardID) {
+
+	console.log("User flipped" + cards[cardId].rank)
+
+	cardsInPlay.push(cards[cardId].rank)
+	}
+
+}
+
+
+var createBoard = function() {
+	for (var i = 0; i < cards.length; i++) {
+		cardElement.addEventListener("click";
+		cardElement.apendChild();
+}
+
+
+}
+
+var cardElement = document.createElement('img');
+cardElement.setAttribute("images/back.png","src");
